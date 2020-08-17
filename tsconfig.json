@@ -1,0 +1,9 @@
+{
+    "compilerOptions":{
+        "lib":["dom", "es7"]
+    },
+    "files":[
+        "ficha.ts",
+        "proficiences.ts"
+    ]
+}
