@@ -1,6 +1,7 @@
 {
     "compilerOptions":{
-        "lib":["dom", "es7"]
+        "lib":["dom", "es7"],
+        "module":"ES6"
     },
     "files":[
         "ficha.ts",

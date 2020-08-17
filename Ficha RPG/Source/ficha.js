@@ -1,5 +1,4 @@
-"use strict";
-import { Proficience } from "./proficiences";
+import { Proficience } from './proficiences';
 var Sheet = /** @class */ (function () {
     function Sheet() {
         this.name = "";
@@ -111,6 +110,7 @@ var Sheet = /** @class */ (function () {
     };
     return Sheet;
 }());
+// export = Sheet
 var sheet = new Sheet();
 sheet.strength = 8;
 sheet.dexterity = 8;
@@ -121,4 +121,3 @@ sheet.charism = 12;
 console.log(sheet.proficienceBonusFor(Proficience.survival));
 sheet.proficiences.push(Proficience.survival);
 console.log(sheet.proficienceBonusFor(Proficience.survival));
-export default Sheet;
