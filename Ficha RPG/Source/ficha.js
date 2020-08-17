@@ -1,6 +1,4 @@
-"use strict";
-exports.__esModule = true;
-var proficiences_1 = require("./proficiences");
+import { Proficience } from './proficiences.js';
 var Sheet = /** @class */ (function () {
     function Sheet() {
         this.name = "";
@@ -120,6 +118,6 @@ sheet.constitution = 12;
 sheet.intelligence = 16;
 sheet.perception = 16;
 sheet.charism = 12;
-console.log(sheet.proficienceBonusFor(proficiences_1.Proficience.survival));
-sheet.proficiences.push(proficiences_1.Proficience.survival);
-console.log(sheet.proficienceBonusFor(proficiences_1.Proficience.survival));
+console.log(sheet.proficienceBonusFor(Proficience.survival));
+sheet.proficiences.push(Proficience.survival);
+console.log(sheet.proficienceBonusFor(Proficience.survival));
