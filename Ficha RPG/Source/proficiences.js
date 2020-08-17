@@ -1,4 +1,7 @@
-export var Proficience;
+"use strict";
+exports.__esModule = true;
+exports.Proficience = void 0;
+var Proficience;
 (function (Proficience) {
     Proficience["survival"] = "Int";
     Proficience["medicine"] = "Int";
@@ -9,4 +12,4 @@ export var Proficience;
     Proficience["intimidation"] = "FC";
     Proficience["persuation"] = "Cha";
     Proficience["driving"] = "DI";
-})(Proficience || (Proficience = {}));
+})(Proficience = exports.Proficience || (exports.Proficience = {}));
