@@ -1,6 +1,6 @@
 "use strict";
 export const __esModule = true;
-import { Proficience } from "./proficiences.js";
+import { Proficience } from "./proficiences";
 var Sheet = /** @class */ (function () {
     function Sheet() {
         this.name = "";
