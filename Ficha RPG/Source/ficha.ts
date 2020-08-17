@@ -132,6 +132,8 @@ class Sheet{
     }
 }
 
+// export = Sheet
+
 var sheet = new Sheet()
 
 sheet.strength = 8

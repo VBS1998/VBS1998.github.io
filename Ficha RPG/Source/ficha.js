@@ -1,5 +1,4 @@
 "use strict";
-export const __esModule = true;
 import { Proficience } from "./proficiences";
 var Sheet = /** @class */ (function () {
     function Sheet() {
@@ -65,7 +64,7 @@ var Sheet = /** @class */ (function () {
         return this.modifierFor(this.dp());
     };
     Sheet.prototype.dodge = function () {
-        return 0;
+        return this.modifierFor(this.dp());
     };
     Sheet.prototype.speed = function () {
         return 6 + this.modifierFor(this.dexterity);
@@ -122,6 +121,4 @@ sheet.charism = 12;
 console.log(sheet.proficienceBonusFor(Proficience.survival));
 sheet.proficiences.push(Proficience.survival);
 console.log(sheet.proficienceBonusFor(Proficience.survival));
-// for(let item in Object.keys(Proficience)){
-//     console.log(sheet.proficienceBonusFor(item))
-// }
+export default Sheet;

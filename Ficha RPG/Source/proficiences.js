@@ -1,7 +1,6 @@
 "use strict";
-export const __esModule = true;
-const _Proficience = void 0;
-export { _Proficience as Proficience };
+exports.__esModule = true;
+exports.Proficience = void 0;
 var Proficience;
 (function (Proficience) {
     Proficience["survival"] = "Int";
@@ -13,4 +12,4 @@ var Proficience;
     Proficience["intimidation"] = "FC";
     Proficience["persuation"] = "Cha";
     Proficience["driving"] = "DI";
-})(Proficience = _Proficience || (exports.Proficience = {}));
+})(Proficience = exports.Proficience || (exports.Proficience = {}));
