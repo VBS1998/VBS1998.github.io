@@ -1,4 +1,4 @@
-import { Proficience } from './proficiences.js';
+import { Proficience } from './proficiences';
 var Sheet = /** @class */ (function () {
     function Sheet() {
         this.name = "";
@@ -110,7 +110,6 @@ var Sheet = /** @class */ (function () {
     };
     return Sheet;
 }());
-// export = Sheet
 var sheet = new Sheet();
 sheet.strength = 8;
 sheet.dexterity = 8;
