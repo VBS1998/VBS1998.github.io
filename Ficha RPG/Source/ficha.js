@@ -1,4 +1,4 @@
-import { Proficience } from './proficiences';
+import { Proficience } from './proficiences.js';
 var Sheet = /** @class */ (function () {
     function Sheet() {
         this.name = "";
